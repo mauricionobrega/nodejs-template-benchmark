@@ -1,0 +1,45 @@
+{
+	"name": "nodejs-template-benchmark",
+	"version": "0.2.0",
+	"author": "Mauricio Nobrega <mauricio.nobrega@gmail.com>",
+	"private": true,
+	"license": "UNLICENSED",
+	"main": "index.js",
+	"scripts": {
+		"test": "node index"
+	},
+	"keywords": [],
+	"engines": {
+		"node": ">=9.11.1",
+		"ruby": ">=2.5.1"
+	},
+	"contibutors": [
+		"Mauricio Nobrega <mauricio.nobrega@gmail.com> (http://www.mauricionobrega.com)"
+	],
+	"homepage": "https://github.com/mauricionobrega/nodejs-template-benchmark",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/mauricionobrega/nodejs-template-benchmark.git"
+	},
+	"bugs": {
+		"url": "https://github.com/mauricionobrega/webpack-init/issues"
+	},
+	"dependencies": {
+		"coffeekup": "0.3.1",
+		"dot": "1.1.2",
+		"dustjs-linkedin": "2.7.5",
+		"eco": "1.1.0-rc-3",
+		"ect": "0.5.9",
+		"ejs": "2.5.8",
+		"fest": "0.12.1",
+		"gaikan": "2.0.2",
+		"handlebars": "4.0.11",
+		"hogan.js": "3.0.2",
+		"jade": "1.11.0",
+		"marko": "4.9.6",
+		"nunjucks": "3.1.2",
+		"pug": "2.0.3",
+		"swig": "1.4.2",
+		"underscore": "1.8.3"
+	}
+}

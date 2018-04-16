@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <title>#{root.title}</title>
+  </head>
+  <body>
+    <p>#{root.text}</p>
+    <ins data-for="project in root.projects">
+      <a href="#{project.url}">#{project.name}</a>
+      <p>#{project.description}</p>
+    </ins>
+    <ins data-if="!root.projects.length">
+      No projects
+    </ins>
+  </body>
+</html>
